@@ -9,7 +9,7 @@ pipeline {
         // Your Docker Hub Username
         DOCKER_USER = 'mohammadasimadeel'
         // Name of the image
-        IMAGE_NAME = 'Online-Presentation'
+        IMAGE_NAME = 'online-presentation'
     }
 
     stages {
