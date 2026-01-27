@@ -5,11 +5,11 @@ pipeline {
         // Your Vercel Token ID from Jenkins Credentials
         VERCEL_TOKEN = credentials('vercel_token')
         // Your Docker Hub ID from Jenkins Credentials
-        DOCKER_CREDS = credentials('docker_hub')
+        DOCKER_CREDS = credentials('docker_hub_creds')
         // Your Docker Hub Username
         DOCKER_USER = 'mohammadasimadeel'
         // Name of the image
-        IMAGE_NAME = 'online-presentations'
+        IMAGE_NAME = 'online-presentation'
     }
 
     stages {
